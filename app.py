@@ -57,8 +57,11 @@ if page == "Upload Files":
     if media_type == "PDF":
         uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
         if uploaded_file:
-            text = extract_text_from_pdf(uploaded_file)
+            with open(uploaded_file.name, "wb") as f:
+                f.write(uploaded_file.getbuffer())
+            text = extract_text_from_pdf(uploaded_file.name)
             process_and_upload(text, uploaded_file.name, "PDF")
+
 
     elif media_type == "DOCX":
         uploaded_file = st.file_uploader("Upload a DOCX file", type=["docx"])
