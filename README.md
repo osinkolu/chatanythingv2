@@ -86,6 +86,89 @@ Our solution deeply integrates with the Azure AI ecosystem:
 
 ## 📊 Technical Architecture
 
+```mermaid
+flowchart TB
+    subgraph "User Interface Layer"
+        UI["Streamlit Application"]
+        UP["Upload Portal"]
+        CI["Chat Interface"]
+        DM["Document Manager"]
+    end
+
+    subgraph "Document Processing Layer"
+        PDF["PDF Processing"]
+        DOCX["DOCX Processing"]
+        TXT["TXT Processing"]
+        YT["YouTube Processing"]
+        WEB["Web Content Processing"]
+        AV["Audio/Video Processing"]
+    end
+
+    subgraph "Core Processing Pipeline"
+        CE["Content Extraction"]
+        TC["Text Chunking"]
+        VE["Vector Embedding"]
+        SI["Search Indexing"]
+    end
+
+    subgraph "AI Services Layer"
+        AIS["Azure AI Search"]
+        AIP["Azure AI Projects"]
+        AOA["Azure OpenAI Service"]
+        AAI["Azure AI Inference"]
+        GT["Groq Transcription API"]
+    end
+
+    subgraph "Chat Processing Pipeline"
+        IM["Intent Mapping"]
+        VS["Vector Search"]
+        CR["Context Retrieval"]
+        RG["Response Generation"]
+    end
+
+    UI --> UP
+    UI --> CI
+    UI --> DM
+    
+    UP --> PDF
+    UP --> DOCX
+    UP --> TXT
+    UP --> YT
+    UP --> WEB
+    UP --> AV
+    
+    PDF --> CE
+    DOCX --> CE
+    TXT --> CE
+    YT --> CE
+    WEB --> CE
+    AV --> GT
+    GT --> CE
+    
+    CE --> TC
+    TC --> VE
+    VE --> SI
+    
+    SI --> AIS
+    AIS <--> AIP
+    AIP <--> AOA
+    AIP --> AAI
+    
+    CI --> IM
+    IM --> VS
+    VS --> CR
+    CR --> RG
+    RG --> CI
+    
+    AIS --> VS
+    AOA --> VE
+    AOA --> IM
+    AOA --> RG
+    AAI --> RG
+    
+    DM --> AIS
+```
+
 Our architecture follows a sophisticated pipeline:
 
 ### 1. Content Ingestion and Processing
