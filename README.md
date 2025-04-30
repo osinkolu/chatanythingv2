@@ -1,14 +1,13 @@
 # ClimAgent 🧠
 
-Chat Anything is an innovative AI-powered agent designed for the Microsoft AI Agents Hackathon 2025 that transforms how users interact with various content types. Our solution enables seamless conversations with documents, videos, web content, and more through an intuitive chat interface, leveraging Azure AI services to deliver contextually accurate responses grounded in uploaded content.
+ClimAgent is an innovative AI-powered agent designed for the Microsoft AI Agents Hackathon 2025 that transforms how users interact with various content types. Our solution enables seamless conversations with documents, videos, web content, and more through an intuitive chat interface, leveraging Azure AI services to deliver contextually accurate responses grounded in uploaded content.
 
 ## 🏆 Hackathon Project Overview
 
 **Team:** Chemotronix  
 **Event:** Microsoft AI Agents Hackathon 2025  
-**Challenge Category:** Best Agent in Python & Best Overall Agent
 
-Our project directly addresses the challenge of enabling users to have meaningful conversations with diverse media content. By combining state-of-the-art Azure AI services with a thoughtfully designed user experience, Chat Anything transforms passive content into active knowledge sources that users can query using natural language.
+Our project directly addresses the challenge of enabling users to have meaningful conversations with diverse media content. By combining state-of-the-art Azure AI services with a thoughtfully designed user experience, ClimAgent transforms passive content into active knowledge sources that users can query using natural language.
 
 ## 🎯 Problem Statement
 
@@ -20,14 +19,14 @@ Knowledge workers waste countless hours searching through documents, videos, and
 
 ## 💡 Our Solution
 
-Chat Anything creates an AI agent that:
+ClimAgent creates an AI agent that:
 - Acts as a knowledgeable assistant for any uploaded content
 - Understands questions in natural language and provides precise answers
 - Grounds all responses in the actual content to ensure accuracy
 - Supports virtually any content format through a unified processing pipeline
 - Maintains conversational context for complex multi-turn interactions
 
-**[Watch Our Demo Video](https://www.youtube.com/watch?v=jOhebgsUKwQ)** (5 minutes) to see Chat Anything in action!
+**[Watch Our Demo Video](https://www.youtube.com/watch?v=jOhebgsUKwQ)** (5 minutes) to see ClimAgent in action!
 
 ## 🌟 Key Features & Innovation
 
@@ -109,7 +108,7 @@ User Query → Intent Mapping → Vector Search → Context Retrieval → Ground
 
 ## 💻 User Experience & Real-World Impact
 
-Chat Anything addresses real-world scenarios for:
+ClimAgent addresses real-world scenarios for:
 
 - **Researchers** who need to quickly extract insights from academic papers
 - **Students** seeking to understand and interact with educational content
@@ -136,7 +135,7 @@ Our user interface is designed for intuitive interaction:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd chatanythingv2
+   cd ClimAgent
    ```
 
 2. Install required dependencies:
