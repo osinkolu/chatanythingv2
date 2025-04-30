@@ -1,4 +1,4 @@
-# Chat Anything 🧠
+# ClimAgent 🧠
 
 Chat Anything is an innovative AI-powered agent designed for the Microsoft AI Agents Hackathon 2025 that transforms how users interact with various content types. Our solution enables seamless conversations with documents, videos, web content, and more through an intuitive chat interface, leveraging Azure AI services to deliver contextually accurate responses grounded in uploaded content.
 
@@ -186,7 +186,7 @@ Our implementation goes far beyond sample code, with sophisticated features:
 ## 🔍 Project Structure
 
 ```
-chatanythingv2/
+ClimAgent/
 ├── app.py                 # Main Streamlit application
 ├── chat_with_products.py  # Core chat functionality
 ├── config.py              # Configuration management
