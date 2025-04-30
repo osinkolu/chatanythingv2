@@ -314,11 +314,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team Members
 
-- Victor Olufemi(Copyright holder)
-- Peace Bello
-- Temitope Olatunji
-- Joshua Akintemi
-- Bolu Jemiriye
+- Peace Bello (Team Lead)
+- Victor Olufemi( Technology Expert & Copyright holder)
+- Temitope Olatunji (DevOps Engineer)
+- Bolu Jemiriye (Product Designer)
 
 ---
 
