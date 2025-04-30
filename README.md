@@ -231,10 +231,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team Members
 
-- Olufemi Victor, Team Lead (Copyright holder)
-- Bello Peace, Co-team Lead
-- Olatunji Temitope, Team Member
-- Akintemi Joshua, Team Member
+- Victor Olufemi(Copyright holder)
+- Peace Bello
+- Temitope Olatunji
+- Joshua Akintemi
+- Bolu Jemiriye
 
 ---
 
