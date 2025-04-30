@@ -27,7 +27,7 @@ Chat Anything creates an AI agent that:
 - Supports virtually any content format through a unified processing pipeline
 - Maintains conversational context for complex multi-turn interactions
 
-**[Watch Our Demo Video](https://youtu.be/placeholder)** (2 minutes) to see Chat Anything in action!
+**[Watch Our Demo Video](https://www.youtube.com/watch?v=jOhebgsUKwQ)** (5 minutes) to see Chat Anything in action!
 
 ## 🌟 Key Features & Innovation
 
